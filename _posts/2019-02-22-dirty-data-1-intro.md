@@ -18,13 +18,10 @@ I'll link to each new topic in this post, or you can check out the feed
 to find the topic relevant to your work.
 
 For this week, something easy-peasy. After reading in the dataset
-(let's call it df), I always run 
-df.head() 
-If you're working in Jupyter Notebook, this prints out a nice 5 row 
-slice of your dataframe in Markdown. It's a snapshot of what you're 
-working with. The default argument is 5, for 5 rows, but if you want to 
-see more or fewer rows, say, <e>n</e> rows, run
-df.head(n)
+(let's call it df), I always run df.head(). If you're working in 
+Jupyter Notebook, this returns a nice 5 row slice of your dataframe
+in Markdown. The default argument is 5, for 5 rows, but if you want to 
+see more or fewer rows, say, n rows, run df.head(n).
 
 See you next week!
 
